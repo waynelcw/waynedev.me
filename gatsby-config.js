@@ -38,11 +38,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Github`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://github.com/waynelcw/`,
           },
           {
             name: `Linkedin`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.linkedin.com/in/wayne-lam-aa5a21105/`,
           },
         ],
       },
