@@ -18,32 +18,31 @@ This is the journey that I struggled happily as I learnt a lot.
 
 ## The decision journey
 
-### Choice of platform
-To start with, I must find a kind of technology to work at.
+### Choosing the right platform
 
-**First thought about:**
-- *Google Blogger* - limited flexibility and third-party themes are mostly outdated
-- *All-in-one Website builder* - expensive subscription and lack of theme choices
-- *Wordpress* - I have been working with them for long time. Great numbers of themes but always end up tweaking them and it's not easy.
-- *Medium*
+The first decision is to evaluate the right platform to implement. I narrowed down my choices to the following:
+- *[Google Blogger](https://www.blogger.com/)* - limited flexibility and third-party themes are mostly outdated
+- *[All-in-one Website builder](https://hk.godaddy.com/en/websites/website-builder/plans-and-pricing)* - expensive subscription and lack of theme choices
+- *[Wordpress](https://wordpress.com/)* - I have been working with them for long time. Great numbers of themes but always end up tweaking them and it's not easy.
+- *[Medium](https://medium.com/)*
   - I read on Medium, a lot. People write on there is more like publishing their work or astounding thoughts. But I just want a space where I can customise stuffs and play with cool effects from time to time.
 
-So I gave up on canned solutions to customise my own site.
-Numbers of choices are still huge! But I limited down to 2 static site generators base on trends and recent blog post numbers - GatsbyJS and Hugo.
+After reviewing the canned solutions, I decided to customize my own site. 
+Although there many choices, I narrowed down my selection to 2 static site generators based on evaluating trends and recent blog posts: GatsbyJS and Hugo 
 
-**GatsbyJS - built with React and GraphQL**
+**[GatsbyJS](https://www.gatsbyjs.org/) - built with React and GraphQL**
 - Good chance to practice on React and GraphQL
 - Great numbers of plugins and themes
 
-**Hugo - written in Go**
+**[Hugo](https://gohugo.io/) - written in Go**
 - Good chance to study Go
 - Extreme rendering speed
 - But no support in JavaScript at all 🤔
 
 ##### The communities
-
-According to some comparison posts, both had the same size community last year. But now the Gatsby community seems to have outreached Hugo’s. 
-I have compared the communities of Gatsby and Hugo.
+According to some developer posts, both solutions had the same numbers of developers last year. 
+However, this past year the number of Gatsby developers exceed the number of Hugo developers.
+The following is a comparison of communities of both platforms:
 
 |  | Gatsby | Hugo  |
 | -- |-------------|-----|
@@ -53,18 +52,20 @@ I have compared the communities of Gatsby and Hugo.
 > Here is another good reference - [Live figures](https://www.staticgen.com/)  from Netlify.
 
 ##### Support for Javascript
+Obviously, Gastby is the winner due to the extensive features.
+I am also inspired to add a lot of cool effects into my blog.
 
-Also, I am tempted intrigued to add a lot of cool effects into my blog.
 There are many interesting plugins and useful tools available [here](https://www.gatsbyjs.org/plugins/).
 
 Obviously, *Gatsby becomes the winner* base on its extensibility and features. 
 
-*(One more personal reason is GraphQL is getting more popular these days. <br/>This would be a great place for me practice with the language.)*
+(One more reason for choosing Gatsby is GraphQL. GraphQL is gaining quite a bit of traction within the developer communities.<br/> 
+This will also give me the opportunity to learn the language.)
 
 ### Choice of hosts (with automated deployment)
 
-There are a lot of tools that could automatically render, deploy and host websites straight from a Github repo.
-I do not want to overkill for simply just a blog with cloud configurations right now.
+There are a lot of tools that could automatically render, deploy and host websites straight from a Github repo.  
+However, I believe it would be a complete overkill to use these tools for a blog site with the cloud configurations available now. 
 
 So I looked down to Netlify and Github Pages as they seem to be the simplest for continuous deployment.
 
@@ -76,11 +77,19 @@ I should pick Github here since I don't actually need much from the Netlify feat
 However, I deceided to go with Netlify purely for experiment.
 Allegedly it is one of the common CI/CD tool allegedly which may widen my vision on gaining visions on more products in the market.
 
+Netlify provides friendly drag & drop interfaces, giant data handling and thumbnail generation. 
+On the other hand, Github Pages comes out of Github and is widely used.
+ 
+Initially, I was thinking to choose Github here since I don't actually need much of the functionality provided by Netlify. 
+However, I decided to go with Netlify for experimental purposes. 
+Apparently, it is one of the most common CI/CD tools which will help me gain more insight into more products in the market.
+
+
 ### Other considerations
 
 **Domain name seller**
 
-It’s all about security and price so not much I could mention. And I don’t really worry about my domain getting stolen anyway.
+There is not much discussion needed as It’s all about security and price.  Also, I'm not worried about my domain getting stolen.
 
 **Domain name of my blog**
 
@@ -89,7 +98,7 @@ Then, I found the `.me` top-level domain and I just went straight ahead as it fi
 
 - - -
 
-And here is a diagram illustrating the flow of events:
+Here is a diagram illustrating the flow of events:
 ![](./GatsbyBlog_EPC.jpg)
 
 - - -
@@ -98,9 +107,10 @@ And here is a diagram illustrating the flow of events:
 *Since I was a developer evangelist, I am now being sensitive on the learning curve of acquiring a new technology.*
 
 ### Gatsby & Shadowing
-The learning journey of Gatsby is very satisfying. 
-The tutorial is easy to follow with over-explaining instructions, code blocks and screenshots.
+The learning journey of Gatsby is quite satisfying. 
+The tutorial is easy to follow with step-by-step instructions, code blocks and screenshots. 
 You do not really need to know any ReactJS before jumping into it.
+
 
 **Twisting the theme - Shadowing**
 
@@ -109,15 +119,22 @@ The only thing that comes messy is I have to look for the theme sourcecode and c
 
 Other than that, there is not reason to not love how easy a theme or plugin can be twisted.
 
+Shadowing is a concept of Gatsby allowing others to make changes on an installed theme - which is similar to class overriding in Java. 
+The only thing that is a bit messy is having to look for the theme source code then create the exact code path of the file I want to override.
+Other than that, there is no reason to not love how easy a theme or plugin can be twisted.
+
+
 ### Netlify & Netlify CMS
 The setup for automated deployment is just a few clicks and granting access on Github which is very smooth and I would recommend this to others.
 However, it is not free for multiple accounts.
 
-I probably would add Netlify CMS to create blog entries next.
-Actually I have managed to set it up once but messed up to migrate it to my current project. 
-But I will just leave it for now and get started on learning some backend tech as I wanted asap.
+I probably would add Netlify CMS to create the blog entries. 
+Actually I have managed to set it up once but came across some challenges trying to migrate it to my current project. 
+But I will just leave it for now and get started on building some backend tech.
 
+I hope you found this blog to be a helpful overview  and a good catchup with React and new web-development technologies.
+ 
 -----
 I think this is a good catchup with React and new web-development technogies.
 
-**Next up** - will be my recent experience with Test-Driven-Technology.
+**Next up** - will be a review based my experience with Test-Driven-Technology.
