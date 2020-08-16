@@ -1,0 +1,16 @@
+{
+  "name": "Wayne's dev blog",
+  "short_name": "Waynedev",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F9F9F3",
+  "description": "A learning journey of a backend developer",
+  "theme_color": "#F9F9F3",
+  "icons": [
+    {
+      "src": "./static/banner.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ]
+}
