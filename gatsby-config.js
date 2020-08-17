@@ -10,9 +10,9 @@ module.exports = {
     siteTitleAlt: `Wayne's dev blog`,
     siteHeadline: `A learning journey of a backend developer`,
     siteUrl: `https://waynedev.me`,
-    siteDescription: `This is a DESCRIPTION`,
+    siteDescription: `A learning journey of a backend developer`,
     author: `@waynelcw`,
-    siteImage: `/banner.jpg`,
+    siteImage: `./static/banner.jpg`,
     siteLanguage: `en`,
     
   },
@@ -57,12 +57,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Wayne's dev blog`,
+        short_name: `WayneDev`,
+        description: `A learning journey of a backend developer.`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#6B46C1`,
+        theme_color: `#F9F9F3`,
         display: `standalone`,
         icons: [
           {
